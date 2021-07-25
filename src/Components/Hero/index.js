@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../Navbar";
+import { HeroContainer } from "./HeroElements";
 
 function Hero() {
   return (
-    <div>
-      <h1>Hero</h1>
-    </div>
+    <HeroContainer>
+      <Navbar />
+    </HeroContainer>
   );
 }
 
