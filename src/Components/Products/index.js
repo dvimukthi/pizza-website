@@ -12,12 +12,12 @@ import {
   ProductButton,
 } from "./ProductsElements";
 
-function products() {
+function products({ heading, data }) {
   return (
     <ProductsContainer>
-      <ProductsHeading>Heading</ProductsHeading>
+      <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
-        {DataCue.map((product, index) => {
+        {data.map((product, index) => {
           return (
             <ProductCard key={index}>
               <ProductImg src={product.img} alt={product.alt} />
