@@ -1,9 +1,10 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Pizza Website Template</h1>
+      <Navbar />
     </div>
   );
 }
