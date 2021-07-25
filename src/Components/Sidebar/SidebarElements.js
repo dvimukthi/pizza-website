@@ -1,4 +1,3 @@
-import Styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
