@@ -49,7 +49,7 @@ export const HeroP = styled.p`
 
 export const HeroBtn = styled.button`
   font-size: 1.4rem;
-  padding: 1rem 4 rem;
+  padding: 1rem 4rem;
   border: none;
   background: #e31837;
   color: #fff;
