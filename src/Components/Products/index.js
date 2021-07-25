@@ -4,7 +4,15 @@ function products() {
   return (
     <ProductsContainer>
       <ProductsHeading>Heading</ProductsHeading>
-      <ProductWrapper></ProductWrapper>
+      <ProductWrapper>
+        {DataCue.map((product, index) => {
+          return (
+            <ProductCard key={index}>
+              <ProductImg src={product.img} alt={product.alt} />
+            </ProductCard>
+          );
+        })}
+      </ProductWrapper>
     </ProductsContainer>
   );
 }
