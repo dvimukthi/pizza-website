@@ -19,8 +19,8 @@ function Hero() {
 
   return (
     <HeroContainer>
-      <Navbar />
-      <Sidebar />
+      <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
           <HeroH1>Greatest Pizza Ever</HeroH1>
