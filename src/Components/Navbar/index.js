@@ -1,10 +1,11 @@
 import React from "react";
+import { Nav } from "./NavbarElements";
 
 function Navbar() {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <>
+      <Nav>Nav</Nav>
+    </>
   );
 }
 
