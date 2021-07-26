@@ -47,11 +47,11 @@ export const productDataTwo = [
     button: "Add to Cart",
   },
   {
-    img: product3,
-    alt: "Pizza",
-    name: "Veggie Overload",
-    desc: "Marinara sauce, basil, italian sausage, roma tomatoes, olives and pesto",
-    price: "$14.99",
+    img: sweet1,
+    alt: "Brownie",
+    name: "Brownie Bunch",
+    desc: "Double fudge brownie squares topped with white chocolate pieces and macadamia nuts",
+    price: "$9.99",
     button: "Add to Cart",
   },
 ];
