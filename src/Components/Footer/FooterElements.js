@@ -43,3 +43,10 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
   font-weight: bold;
 `;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
