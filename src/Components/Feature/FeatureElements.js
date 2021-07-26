@@ -20,4 +20,9 @@ export const FeatureContainer = styled.div`
   h1 {
     font-size: clamp(3rem, 5vw, 5rem);
   }
+
+  p {
+    margin-bottom: 1rem;
+    font-size: clamp(1rem, 3vw, 2rem);
+  }
 `;
