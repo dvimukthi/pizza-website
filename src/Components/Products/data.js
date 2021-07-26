@@ -31,11 +31,11 @@ export const productData = [
 
 export const productDataTwo = [
   {
-    img: product1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc: "Marinara sauce, basil, italian sausage, roma tomatoes, olives and pesto",
-    price: "$19.99",
+    img: sweet2,
+    alt: "Donuts",
+    name: "Doughlicious",
+    desc: "Belgian chocolate glazed donuts covered in icing with sprinkles on top",
+    price: "$9.99",
     button: "Add to Cart",
   },
   {
