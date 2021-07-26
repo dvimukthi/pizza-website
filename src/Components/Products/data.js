@@ -39,11 +39,11 @@ export const productDataTwo = [
     button: "Add to Cart",
   },
   {
-    img: product2,
-    alt: "Pizza",
-    name: "Hawaiian Paradise",
-    desc: "Marinara sauce, basil, italian sausage, roma tomatoes, olives and pesto",
-    price: "$16.99",
+    img: sweet3,
+    alt: "Ice Cream",
+    name: "Caramel Wonder",
+    desc: "Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick",
+    price: "$12.99",
     button: "Add to Cart",
   },
   {
