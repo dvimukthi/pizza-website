@@ -1,5 +1,14 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FooterContainer,
+  FooterWrap,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  SocialIcons,
+  SocialIconLink,
+} from "./FooterElements";
 
 function Footer() {
   return (
@@ -8,7 +17,7 @@ function Footer() {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/">Pizza</SocialLogo>
-            <SocialIcon>
+            <SocialIcons>
               <SocialIconLink
                 href="/"
                 target="_blank"
@@ -41,7 +50,7 @@ function Footer() {
               >
                 <FaTwitter />
               </SocialIconLink>
-            </SocialIcon>
+            </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
